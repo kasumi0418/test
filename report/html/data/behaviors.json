@@ -1,0 +1,83 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "部门名称重复",
+    "uid" : "c3d44396175354e3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1622100094148,
+      "stop" : 1622100094494,
+      "duration" : 346
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "60008", "'部门名称重复'", "{'name': '教学部', 'name_en': 'RDGZ1', 'parentid': 1, 'order': 1, 'id': 4}" ]
+  }, {
+    "name" : "部门添加正确-只有必填项",
+    "uid" : "963ee95adf91c666",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1622100094150,
+      "stop" : 1622100094481,
+      "duration" : 331
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "0", "'部门添加正确-只有必填项'", "{'name': 'python教学部', 'parentid': 1}" ]
+  }, {
+    "name" : "部门添加正确",
+    "uid" : "2414eb48b888096b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1622100094161,
+      "stop" : 1622100094499,
+      "duration" : 338
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "0", "'部门添加正确'", "{'name': '教学部', 'name_en': 'RDGZ', 'parentid': 1, 'order': 1, 'id': 3}" ]
+  }, {
+    "name" : "部门英文名称重复",
+    "uid" : "b819c5beecaed8a0",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1622100094485,
+      "stop" : 1622100094805,
+      "duration" : 320
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "60008", "'部门英文名称重复'", "{'name': '教学部1', 'name_en': 'RDGZ', 'parentid': 1, 'order': 1, 'id': 5}" ]
+  }, {
+    "name" : "部门id重复",
+    "uid" : "b1191af6b4171eb4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1622100094501,
+      "stop" : 1622100094780,
+      "duration" : 279
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "60008", "'部门id重复'", "{'name': '教学部3', 'name_en': 'RDGZ3', 'parentid': 1, 'order': 1, 'id': 2}" ]
+  }, {
+    "name" : "父级部门不存在",
+    "uid" : "98f197beaa13f84",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1622100094506,
+      "stop" : 1622100094780,
+      "duration" : 274
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "60004", "'父级部门不存在'", "{'name': '教学部2', 'name_en': 'RDGZ2', 'parentid': 1000, 'order': 1, 'id': 6}" ]
+  } ]
+}
