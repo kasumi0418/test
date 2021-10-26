@@ -1,60 +1,60 @@
 [ {
-  "uid" : "98f197beaa13f84",
-  "name" : "父级部门不存在",
-  "time" : {
-    "start" : 1622100094506,
-    "stop" : 1622100094780,
-    "duration" : 274
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b819c5beecaed8a0",
-  "name" : "部门英文名称重复",
-  "time" : {
-    "start" : 1622100094485,
-    "stop" : 1622100094805,
-    "duration" : 320
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2414eb48b888096b",
+  "uid" : "1b07b80162ad42c3",
   "name" : "部门添加正确",
   "time" : {
-    "start" : 1622100094161,
-    "stop" : 1622100094499,
-    "duration" : 338
+    "start" : 1624504100087,
+    "stop" : 1624504101311,
+    "duration" : 1224
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "c3d44396175354e3",
-  "name" : "部门名称重复",
-  "time" : {
-    "start" : 1622100094148,
-    "stop" : 1622100094494,
-    "duration" : 346
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "963ee95adf91c666",
-  "name" : "部门添加正确-只有必填项",
-  "time" : {
-    "start" : 1622100094150,
-    "stop" : 1622100094481,
-    "duration" : 331
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b1191af6b4171eb4",
+  "uid" : "be7af80ff80c9400",
   "name" : "部门id重复",
   "time" : {
-    "start" : 1622100094501,
-    "stop" : 1622100094780,
-    "duration" : 279
+    "start" : 1624504104079,
+    "stop" : 1624504104997,
+    "duration" : 918
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "93e7e5a3e53ac540",
+  "name" : "部门英文名称重复",
+  "time" : {
+    "start" : 1624504102543,
+    "stop" : 1624504103461,
+    "duration" : 918
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b7bbc03df5679da7",
+  "name" : "部门名称重复",
+  "time" : {
+    "start" : 1624504101315,
+    "stop" : 1624504102540,
+    "duration" : 1225
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "49beec964850e747",
+  "name" : "部门添加正确-只有必填项",
+  "time" : {
+    "start" : 1624504099162,
+    "stop" : 1624504100083,
+    "duration" : 921
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c72abffedd09442",
+  "name" : "父级部门不存在",
+  "time" : {
+    "start" : 1624504103465,
+    "stop" : 1624504104075,
+    "duration" : 610
   },
   "status" : "passed",
   "severity" : "normal"

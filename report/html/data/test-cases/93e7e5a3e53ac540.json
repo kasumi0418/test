@@ -1,0 +1,95 @@
+{
+  "uid" : "93e7e5a3e53ac540",
+  "name" : "部门英文名称重复",
+  "fullName" : "testcases.test_dep.TestCretaeDep#test_cretae_dep",
+  "historyId" : "fb9d066b5c9811905a35d8e9414530ff",
+  "time" : {
+    "start" : 1624504102543,
+    "stop" : 1624504103461,
+    "duration" : 918
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "delete_dep_data",
+    "time" : {
+      "start" : 1624504096703,
+      "stop" : 1624504099160,
+      "duration" : 2457
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "get_token",
+    "time" : {
+      "start" : 1624504095237,
+      "stop" : 1624504096703,
+      "duration" : 1466
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_dep"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCretaeDep"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-93HH27QA"
+  }, {
+    "name" : "thread",
+    "value" : "50656-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_dep"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assertvalue",
+    "value" : "60008"
+  }, {
+    "name" : "casename",
+    "value" : "'部门英文名称重复'"
+  }, {
+    "name" : "json",
+    "value" : "{'name': '教学部1', 'name_en': 'RDGZ', 'parentid': 1, 'order': 1, 'id': 5}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "93e7e5a3e53ac540.json",
+  "parameterValues" : [ "60008", "'部门英文名称重复'", "{'name': '教学部1', 'name_en': 'RDGZ', 'parentid': 1, 'order': 1, 'id': 5}" ]
+}

@@ -6,23 +6,10 @@
 import allure
 import pytest
 
-from api.base_api import BaseApi
 from api.create_dep import CreateDep
-from api.get_token import GetToken
 
 
 class TestCretaeDep:
-
-
-
-    """
-    部门添加正确,{"name":"教学部","name_en":"RDGZ","parentid":1,"order":1,"id":2}
-    部门添加正确-只有必填项,{"name":"python教学部","parentid":1}
-    部门名称重复,{"name":"教学部","name_en":"RDGZ1","parentid":1,"order":1,"id":3}
-    部门英文名称重复,{"name":"教学部1","name_en":"RDGZ","parentid":1,"order":1,"id":4}
-    父级部门不存在,{"name":"教学部2","name_en":"RDGZ2","parentid":1000,"order":1,"id":5}
-    部门id重复,{"name":"教学部3","name_en":"RDGZ3","parentid":1,"order":1,"id":2}
-    """
     """
     当前写法存在的问题
     1. 数据问题，每次请求前没有清除原有数据，造成数据异常
@@ -52,17 +39,3 @@ class TestCretaeDep:
         #提取响应里的errcode来作为判断依据
         errcode = create_dep.get_resp('$.errcode')
         assert errcode == assertvalue #原来是断言的默认参数值，现在要根据传进来的测试数据断言不同的值
-    # def test_cretae_dep1(self,delete_dep_data):
-    #     create_dep = CreateDep()
-    #     create_dep.send()
-    #     # 断言
-    #     #提取响应里的errcode来作为判断依据
-    #     errcode = create_dep.get_resp('$.errcode')
-    #     assert errcode == 0
-    # def test_cretae_dep2(self,delete_dep_data):
-    #     create_dep = CreateDep()
-    #     create_dep.send()
-    #     # 断言
-    #     #提取响应里的errcode来作为判断依据
-    #     errcode = create_dep.get_resp('$.errcode')
-    #     assert errcode == 0

@@ -1,0 +1,95 @@
+{
+  "uid" : "7c72abffedd09442",
+  "name" : "父级部门不存在",
+  "fullName" : "testcases.test_dep.TestCretaeDep#test_cretae_dep",
+  "historyId" : "de3e44e1a5bcda73f3d6c47aa61e2a26",
+  "time" : {
+    "start" : 1624504103465,
+    "stop" : 1624504104075,
+    "duration" : 610
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "delete_dep_data",
+    "time" : {
+      "start" : 1624504096703,
+      "stop" : 1624504099160,
+      "duration" : 2457
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "get_token",
+    "time" : {
+      "start" : 1624504095237,
+      "stop" : 1624504096703,
+      "duration" : 1466
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcases"
+  }, {
+    "name" : "suite",
+    "value" : "test_dep"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCretaeDep"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-93HH27QA"
+  }, {
+    "name" : "thread",
+    "value" : "50656-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcases.test_dep"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "assertvalue",
+    "value" : "60004"
+  }, {
+    "name" : "casename",
+    "value" : "'父级部门不存在'"
+  }, {
+    "name" : "json",
+    "value" : "{'name': '教学部2', 'name_en': 'RDGZ2', 'parentid': 1000, 'order': 1, 'id': 6}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7c72abffedd09442.json",
+  "parameterValues" : [ "60004", "'父级部门不存在'", "{'name': '教学部2', 'name_en': 'RDGZ2', 'parentid': 1000, 'order': 1, 'id': 6}" ]
+}
